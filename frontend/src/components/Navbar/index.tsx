@@ -1,12 +1,15 @@
 import { ReactComponent as GithubIcon } from 'assets/img/github.svg'
+import { BASE_URL } from 'utils/requests';
+import axios from 'axios';
 import './styles.css';
 
 function Navbar() {
+
     return (
     <header>
         <nav className="container">
             <div className="dsmovie-nav-content">
-                <h1>DSMovie</h1>
+            <h1>DSMovie</h1>
                 <a href="https://github.com/devsuperior">
                     <div className="dsmovie-contact-container">
                         <GithubIcon />
@@ -15,7 +18,8 @@ function Navbar() {
                 </a>
             </div>
         </nav>
-    </header>);
+    </header>
+    );
 }
 
 export default Navbar;
