@@ -48,6 +48,7 @@ function FormCard( { movieId } : Props) {
         .then(response => {
             navigate("/");
         })
+
     }
 
     return (
