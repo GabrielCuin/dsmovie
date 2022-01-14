@@ -1,6 +1,4 @@
 import { ReactComponent as GithubIcon } from 'assets/img/github.svg'
-import { BASE_URL } from 'utils/requests';
-import axios from 'axios';
 import './styles.css';
 
 function Navbar() {
